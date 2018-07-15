@@ -35,4 +35,10 @@ public class AppTest
     {
         assertTrue( true );
     }
+    
+    public void testJedis() {
+    	
+    	String a="abcded";
+    	a.hashCode();
+    }
 }
